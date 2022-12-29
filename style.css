@@ -1,0 +1,135 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.section {
+    padding: 15px 0;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.container:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.box {
+    background-color: #fff;
+    border-radius: 10px;
+    border: 1px solid #fff;
+    padding: 15px;
+    box-sizing: border-box;
+    margin: 10px 0 25px 0;
+    overflow-x: auto;
+}
+
+.box:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.table tr {
+    height: 30px;
+}
+
+.table tr:nth-child(even) {background-color: #f2f2f2;}
+.table tbody tr:hover {background-color: #ddd;}
+.table td, .table th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+.table tr td {
+    padding: 5px 10px;
+}
+
+thead {
+    background-color: blue;
+    color: #fff;
+}
+
+.box1 {
+    margin: 10px 0 -10px 0;
+    display: flex;
+}
+
+.section .container .box1 button {
+    background-color: blue;
+    display: inline-block;
+    border: none;
+    font-size: 20px;
+    margin: 4px 20px 4px 0;
+    cursor: pointer;
+    border-radius: 8px;
+    padding: 7px;
+    transition-duration: 0.4s;
+}
+
+.section .container .box1 button a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.section .container .box1 button:hover {
+    background-color: #000;
+}
+
+.input-control {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+.btn{
+    padding: 8px 20px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    width: 100%;
+    background-color: blue;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+#buttdetail {
+    background-color: #fff;
+    border: none;
+    color: #fff;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 20px 4px 0;
+    cursor: pointer;
+    border-radius: 8px;
+    padding: 5px;
+    transition-duration: 0.4s;
+    border: 1px solid blue;
+}
+
+#buttdetail:hover {
+    background-color: blue;
+    color: #fff;
+}
+
+#buttdetail a {
+    text-decoration: none;
+    color: blue;
+}
+
+#buttdetail a:hover {
+    color: #fff;
+}
